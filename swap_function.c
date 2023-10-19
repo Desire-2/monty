@@ -7,11 +7,11 @@
 */
 void _funcSwap(stack_t **head, unsigned int counter)
 {
-    int _leng = 0, _aux;
+	int _leng = 0, _aux;
 	stack_t *_head;
 
 	_head = *head;
-	while (-head)
+	while (_head)
 	{
 		_head = _head->next;
 		_leng++;
